@@ -3,7 +3,7 @@ function solve() {
    const textArea = document.getElementsByTagName('textarea')[0];
    const checkoutEl = document.getElementsByClassName('checkout')[0];
    const allButtons = document.getElementsByTagName('button');
-   let products = [];
+   let products = {};
    
    Array.from(addButtonEl).forEach(button => {
       button.addEventListener('click', (e)=>{

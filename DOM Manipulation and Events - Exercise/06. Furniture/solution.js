@@ -59,6 +59,6 @@ function solve() {
   averageDecorationFactor = averageDecorationFactor/counter;
  outputArea.textContent +=`Bought furniture: ${names.join(', ')}\n`;
  outputArea.textContent += `Total price: ${totalPrice.toFixed(2)}\n`;
- outputArea.textContent += `Average decoration factor: ${averageDecorationFactor}\n`
+ outputArea.textContent += `Average decoration factor: ${averageDecorationFactor}`
  })
 }
